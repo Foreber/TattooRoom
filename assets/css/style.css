@@ -666,10 +666,18 @@ section {
 .services .icon-box {
   padding: 60px 30px;
   transition: all ease-in-out 0.3s;
-  background: #fefefe;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
-  border-radius: 18px;
-  border-bottom: 5px solid #fff;
+}
+
+.classbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .services .icon-box .icon {
@@ -706,10 +714,6 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
-  transform: translateY(-10px);
-  border-color: #696565;
-}
 
 .services .icon-box:hover h4 a {
   color: #282828;
@@ -1169,6 +1173,12 @@ section {
 --------------------------------------------------------------*/
 .faq {
   padding: 5%;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .faq .content {
